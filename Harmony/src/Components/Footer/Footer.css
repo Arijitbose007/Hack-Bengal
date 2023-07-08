@@ -1,0 +1,170 @@
+/* Original styles */
+.footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Updated styles */
+.footerContainer {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.footerNav {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Zilla Slab', sans-serif;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footerNav h2 {
+  color: #f7841e;
+  line-height: 1;
+  font-size: 30px;
+  margin: 0;
+}
+
+.footerNav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footerNav ul li {
+  padding-left: 16px;
+}
+
+.footerNav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: inter;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footerNav ul li a:hover {
+  color: #26ABA3;
+  transform: scale(1.1);
+}
+
+.footerContainer hr.borderLine {
+  border-top: 0px #d9d9d9;
+  margin: 1rem;
+  opacity: 0.6;
+  margin-inline: -10px;
+}
+
+.footerLast {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLast .footerText p {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0;
+}
+
+.socialIcons button {
+  background: #d9d9d933;
+  border: 1px #d9d9d933;
+  border-radius: 0.2rem;
+  margin: 0 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.socialIcons button:hover {
+  transform: scale(1.1);
+}
+
+.socialIcons img {
+  height: 1rem;
+  margin: 10px;
+}
+
+/* Media queries for different breakpoints */
+
+/* Max width: 1440px */
+@media only screen and (max-width: 1440px) {
+  .footerImgText {
+    background-position: 130% 3%;
+  }
+  /* Additional styles for max-width: 1440px */
+}
+
+/* Max width: 1240px */
+@media only screen and (max-width: 1240px) {
+  .footerImgText {
+    background-position: 120% 3%;
+  }
+  /* Additional styles for max-width: 1240px */
+}
+
+/* Max width: 1024px */
+@media only screen and (max-width: 1024px) {
+  .footerImgText {
+    background-position: 100% 3%;
+  }
+  .footerNav ul li a {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .socialIcons img {
+    height: 0.8rem;
+    margin: 6px;
+  }
+  .footerLast .footerText p {
+    font-size: 0.7rem;
+  }
+  .logo{
+    padding-top: 1rem;
+    width: 50px;
+    height: auto;
+  }
+  /* Additional styles for max-width: 1024px */
+}
+
+/* Max width: 992px */
+@media only screen and (max-width: 992px) {
+  .footerImgText {
+    background-position: 90% 3%;
+  }
+  /* Additional styles for max-width: 992px */
+}
+
+/* Max width: 768px */
+@media only screen and (max-width: 768px) {
+  .footerImgText {
+    background-position: center;
+  }
+  /* Additional styles for max-width: 768px */
+}
+
+/* Max width: 596px */
+@media only screen and (max-width: 596px) {
+  .footerImgText {
+    height: 260px;
+  }
+  /* Additional styles for max-width: 596px */
+}
+
+/* Max width: 320px */
+@media only screen and (max-width: 320px) {
+  .footerImgText {
+    height: 200px;
+  }
+  /* Additional styles for max-width: 320px */
+}
